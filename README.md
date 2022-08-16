@@ -24,7 +24,7 @@ mnist.py accepts following arguments:
 
 example
 ```
-blender --background --python ~/.config/blender/2.82/scripts/startup/mnist.py -- --meta=~/projects/mnist_saver/render_desc --render=~/projects/mnist_saver/render --source=~/projects/mnist_saver/train --blend=~/Documents/untitled.blend
+blender --background --python mnist.py -- --meta=~/mnist_saver/render_desc --render=~/mnist_saver/render --source=~/mnist_saver/train --blend=./untitled.blend
 ```
 
 you can use **mnist2png.py** to extract mnist in png format
